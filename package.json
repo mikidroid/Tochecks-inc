@@ -1,7 +1,7 @@
 {
   "name": "trydo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://mikidroid.github.io/Tochex-inc",
   "basename": "/",
   "dependencies": {
