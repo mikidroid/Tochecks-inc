@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://mikidroid.github.io/Tochex-inc",
+  "homepage": "https://mikidroid.github.io",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
