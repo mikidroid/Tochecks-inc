@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Tochex-inc/static/css/main.14e5966e.chunk.css",
+    "main.js": "/Tochex-inc/static/js/main.d0d7ecd2.chunk.js",
+    "main.js.map": "/Tochex-inc/static/js/main.d0d7ecd2.chunk.js.map",
+    "runtime~main.js": "/Tochex-inc/static/js/runtime~main.d70b1dba.js",
+    "runtime~main.js.map": "/Tochex-inc/static/js/runtime~main.d70b1dba.js.map",
+    "static/css/2.487f1fbf.chunk.css": "/Tochex-inc/static/css/2.487f1fbf.chunk.css",
+    "static/js/2.6352b70c.chunk.js": "/Tochex-inc/static/js/2.6352b70c.chunk.js",
+    "static/js/2.6352b70c.chunk.js.map": "/Tochex-inc/static/js/2.6352b70c.chunk.js.map",
+    "static/js/3.82ffff18.chunk.js": "/Tochex-inc/static/js/3.82ffff18.chunk.js",
+    "static/js/3.82ffff18.chunk.js.map": "/Tochex-inc/static/js/3.82ffff18.chunk.js.map",
+    "index.html": "/Tochex-inc/index.html",
+    "precache-manifest.9219e6787f68fc27ba79b84a48c62a6b.js": "/Tochex-inc/precache-manifest.9219e6787f68fc27ba79b84a48c62a6b.js",
+    "service-worker.js": "/Tochex-inc/service-worker.js",
+    "static/css/2.487f1fbf.chunk.css.map": "/Tochex-inc/static/css/2.487f1fbf.chunk.css.map",
+    "static/css/main.14e5966e.chunk.css.map": "/Tochex-inc/static/css/main.14e5966e.chunk.css.map",
+    "static/media/index.scss": "/Tochex-inc/static/media/slick.f97e3bbf.svg"
+  }
+}
