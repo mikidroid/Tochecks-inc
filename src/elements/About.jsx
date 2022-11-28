@@ -47,8 +47,10 @@ class About extends Component{
                                                     <h3 className="title"><b>Biography</b></h3>
                                                     <p><b>ROTN. NWANKWO TOCHUKWU IHEAKAM (MD)</b> was born on 1st of September 1980 in Okpanku Amumara in Ezinihitte Mbaise L.G.A of Imo State.</p><p>
 He had his early education at shell camp primary school, Owerri, and proceeded for his secondary education at government secondary school Owerri.
-</p>
-                                                </div>
+</p><p>
+</p><p>
+Tochukwu is happily married to his Lovely wife Mrs. Evarister Ovoke Nwankwo and are blessed with 4 children.
+</p>                                                </div>
                                             </div>
 <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
@@ -114,7 +116,7 @@ He joined Rotary International family as a charter member of Rotary Club of Abuj
                 </div>
                 {/* End Testimonial Area */}
 
-                {/* Start Brand Area */}
+                {/* Start Brand Area 
                 <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
@@ -124,7 +126,7 @@ He joined Rotary International family as a charter member of Rotary Club of Abuj
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area */}
+                 End Brand Area */}
 
                 {/* Start Back To Top */}
                 <div className="backto-top">

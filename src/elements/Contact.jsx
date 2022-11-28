@@ -106,7 +106,7 @@ class Contact extends Component{
                 </div>
                 {/* End Contact Page Area  */}
 
-                {/* Start Contact Map  */}
+                {/* Start Contact Map  
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
@@ -121,10 +121,10 @@ class Contact extends Component{
                         </GoogleMapReact>
                     </div>
                 </div>
-                {/* End Contact Map  */}
+                 End Contact Map  */}
                 
 
-                {/* Start Brand Area */}
+                {/* Start Brand Area 
                 <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
@@ -134,7 +134,7 @@ class Contact extends Component{
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area */}
+                 End Brand Area */}
 
                 {/* Start Back To Top */}
                 <div className="backto-top">

@@ -198,7 +198,7 @@ He is also the Managing Director of Tochecks Integrated Services limited: Invest
                 </div>
                 {/* End Testimonial Area */}
             
-                {/* Start Brand Area */}
+                {/* Start Brand Area 
                 <div className="rn-brand-area brand-separation bg_color--5 pb--120">
                     <div className="container">
                         <div className="row">
@@ -208,7 +208,7 @@ He is also the Managing Director of Tochecks Integrated Services limited: Invest
                         </div>
                     </div>
                 </div>
-                {/* End Brand Area */}
+                 End Brand Area */}
 
             {/* Start COntact Area */}
             <div id="contact" className="fix">
