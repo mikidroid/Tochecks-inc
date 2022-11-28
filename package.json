@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://localhost:3000",
+  "homepage": "http://mikidroid.github.io/Tochex-inc",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -89,7 +89,9 @@
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/start.js",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/build.js",
-    "test": "export SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/test.js"
+    "test": "export SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/test.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": "react-app"
