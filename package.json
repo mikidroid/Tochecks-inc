@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mikidroid.github.io/Tochex-inc",
+  "homepage": "https://mikidroid.github.io/Tochex-inc",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -116,9 +116,7 @@
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
-    "setupFilesAfterEnv": [
-
-    ],
+    "setupFilesAfterEnv": [],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
       "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
@@ -133,9 +131,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
       "^.+\\.module\\.(css|sass|scss)$"
     ],
-    "modulePaths": [
-
-    ],
+    "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
       "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
@@ -163,6 +159,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "terser-webpack-plugin": "^1.4.5"
   }
 }
