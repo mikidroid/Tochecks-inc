@@ -1,8 +1,5 @@
 import React , {useState} from 'react';
 import emailjs from 'emailjs-com';
-import {Mail} from '../../config/smtp-mail'
-import {Helmet} from 'react-helmet'
-import * as RR from 'react-router-dom'
 
 const Result = () => {
     return (
@@ -11,26 +8,37 @@ const Result = () => {
 }
 function ContactForm({props}) {
     const [ result,showresult ] = useState(false);
-    const Nav = RR.useHistory()
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
-        //Using custom mail abstracted promise component
-        Mail(e.target)
-        .then(e=>{
-           showresult(true)
-           Nav(0)
-        })
-        .catch(e=>alert("Message unable to send, refresh page!"))
-    }
+        emailjs
+        .sendForm(
+            'service_p4x3hv8', 
+            'template_jgfr42f', 
+            e.target, 
+            'user_jrfTH2e0Ely35ZCVFdT9S'
+        )
+        .then((result) => {
+            console.log(result.text);
+            }, 
+            (error) => {
+                console.log(error.text);
+            }
+        );
+        e.target.reset();
+        showresult(true);
+    };
 
+    setTimeout(() => {
+        showresult(false);
+    }, 5000);
 
     return (
         <form action="" onSubmit={sendEmail}>
             <div className="rn-form-group">
                 <input 
                 type="text"
-                name="name"
+                name="fullname"
                 placeholder="Your Name"
                 required
                 />
@@ -41,6 +49,15 @@ function ContactForm({props}) {
                 type="email"
                 name="email"
                 placeholder="Your Email"
+                required
+                />
+            </div>
+
+            <div className="rn-form-group">
+                <input 
+                type="text"
+                name="phone"
+                placeholder="Phone Number"
                 required
                 />
             </div>

@@ -1,25 +1,11 @@
 import C from './config'
-/*
-import { SMTPClient } from 'emailjs';
-
-const client = new SMTPClient({
-	user: C.mail_username,
-	password: C.mail_password,
-	host: C.mail_host,
-	ssl: true,
-});
+import emailjs from 'emailjs-com';
 
 export const Mail=(val)=>{
+    const serviceID=C.serviceID
+    const templateID=C.templateID
+    const publicKey=C.publicKey
   
-  client.send(
-     	{
-        to: C.email,
-	     	...val
-    	},(err, message) => {
-	      	 if(err){
-		         return err
-      		 }
-	      	 return 200
-     	})
+    return emailjs.sendForm(serviceID, templateID, val, publicKey)
   }
-  */
+  

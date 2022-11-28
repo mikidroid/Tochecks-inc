@@ -11,5 +11,10 @@ export default {
    smtp_host:'mail.tochecks.com',
    mail_username:'support@tochecks.com',
    mail_password:'Tochecks--2022',
-   facebook:'https://www.facebook.com/tochecksintegratedservices'
+   facebook:'https://www.facebook.com/tochecksintegratedservices',
+   
+   //For EmailJs Library
+   serviceID:"service_igaozhi",
+   templateID:"template_w7lth14",
+   publicKey:"eA_uVDli9aBp5TPL2"
 }
