@@ -13,5 +13,4 @@ export default [
         link: 'http://www.tochecks.com'
     },
 
-
 ]

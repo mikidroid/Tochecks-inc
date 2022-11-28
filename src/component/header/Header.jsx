@@ -65,13 +65,13 @@ class Header extends Component{
                                 <li><Link to="/">Home</Link>
            
                                 </li>
-                                <li><Link to="/#service" >Service</Link>
+                                <li><a href="/#service" >Service</a>
                                 </li>
                                 <li><Link to="/about" >About</Link></li>
 
-                                <li><Link to="/#portfolio" >Portfolio</Link>
+                                <li><a href="/#portfolio" >Portfolio</a>
                                 </li>
-                                <li><Link to="/#testimonial" >Testimonial</Link>
+                                <li><a href="/#testimonial" >Testimonial</a>
                                 </li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
