@@ -50,4 +50,9 @@ export default [
         title: 'Taking Advantage of The Best deal',
         description: '', 
     },  
+      {
+        id: '11',
+        title: 'Taking Advantage of The Best deal',
+        description: '', 
+    },  
 ]
